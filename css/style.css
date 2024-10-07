@@ -76,6 +76,15 @@ a{
     height: 10px;
 }
 
+.wave{
+    width: 100%;
+    display: block;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
 /*HEADER*/
 .header{
     background-color: #265ee9;
@@ -158,7 +167,7 @@ a{
 
 .section-2-4{
     padding: 20px;
-    background-color: rgb(246 246 246);
+    background-color: #f6f6f6;
 }
 
 .section-4-container{
