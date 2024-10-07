@@ -71,6 +71,11 @@ a{
    color: #7389da;
 }
 
+.img-dim{
+    width: 20px;
+    height: 10px;
+}
+
 /*HEADER*/
 .header{
     background-color: #265ee9;
@@ -166,12 +171,15 @@ a{
 
 .star{
     background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: left;
 }
 
 /*FOOTER*/
 .section-footer{
     padding: 10px 0 20px 0;
     background-color: #23272a;
+    color: #ffffff;
 }
 
 .col-40-2{
@@ -180,6 +188,14 @@ a{
 
 .col-15{
     width: 15%;
+}
+
+.list{
+    list-style: none;
+}
+
+li{
+    margin: 10px;
 }
 
 .section-footer-2{
@@ -193,9 +209,6 @@ a{
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    /*debug*/
-    border: 1px solid #000000;
-    background-color: #00ffff;
 }
 
 .row-footer-2{
@@ -207,7 +220,4 @@ a{
 
 .col-10{
     width: 10%;
-    /*debug*/
-    border: 1px solid #000000;
-    background-color: #ff69b4;
 }
