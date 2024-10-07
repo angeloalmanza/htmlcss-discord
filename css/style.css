@@ -1,0 +1,162 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*layout*/
+
+/*HEADER*/
+.header{
+    background-color: #00ffff;
+}
+
+.section{
+    padding: 20px 0;
+}
+
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #b8860b;
+}
+
+.row{
+    display: flex;
+}
+
+.col-20{
+    width: 20%;
+    /*debug*/
+    border: 1px solid #000000;
+}
+
+.col-60{
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    /*debug*/
+    border: 1px solid #000000;
+}
+
+/*MAIN*/
+.banner{
+    padding: 20px;
+    background-color: #0000ff;
+}
+
+.banner-container{
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #ff69b4;
+    min-height: 200px;
+}
+
+.section-1-3{
+    padding: 20px;
+}
+
+.section-footer-container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /*debug*/
+    border: 1px solid #000000;
+    min-height: 200px;
+}
+
+.row-section-footer{
+    display: flex;
+    /*debug*/
+    min-height: 200px;
+}
+
+.col-60-2{
+    width: 60%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color:#00bfff ;
+}
+
+.col-40{
+    width: 40%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color:#ffc0cb ;
+}
+
+.section-2-4{
+    padding: 20px;
+    /*debug*/
+    background-color: #808080;
+}
+
+.section-4-container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #008000;
+    min-height: 400px;
+}
+
+
+/*FOOTER*/
+.section-footer{
+    padding: 10px 0 20px 0;
+    /*debug*/
+    background-color: hsl(205.71deg 9.09% 15.1%);
+}
+
+.col-40-2{
+    width: 40%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color:#ff7f50 ;
+}
+
+.col-15{
+    width: 15%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #008b8b;
+}
+
+.section-footer-2{
+    padding: 20px 0 0 0;
+    /*debug*/
+    background-color: hsl(205.71deg 9.09% 15.1%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.container-footer-2{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #00ffff;
+}
+
+.row-footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.col-10{
+    width: 10%;
+    /*debug*/
+    border: 1px solid #000000;
+    background-color: #ff69b4;
+}
